@@ -7,16 +7,15 @@
 </head>
 <body>
     <?php
-        $x = 5;
-        $y = 10;
-        
-        function myTest() {
-          global $x, $y;
-          $y = $x + $y;
-        }
-        
-        myTest();
-        echo $y;
+       function myTest() {
+        static $x = 0;
+        echo $x;
+        $x++;
+      }
+      
+      myTest();
+      myTest();
+      myTest();
     ?>
 </body>
 </html>
