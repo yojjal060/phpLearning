@@ -7,15 +7,20 @@
 </head>
 <body>
     <?php
-       function myTest() {
-        static $x = 0;
-        echo $x;
-        $x++;
+       class Car {
+        public $color;
+        public $model;
+        public function __construct($color, $model) {
+          $this->color = $color;
+          $this->model = $model;
+        }
+        public function message() {
+          return "My car is a " . $this->color . " " . $this->model . "!";
+        }
       }
       
-      myTest();
-      myTest();
-      myTest();
+      $myCar = new Car("red", "Volvo");
+      var_dump($myCar);
     ?>
 </body>
 </html>
