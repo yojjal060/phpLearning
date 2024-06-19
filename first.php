@@ -11,6 +11,7 @@
       $y = "World";
       $z = $x . $y;
       echo $z;
+      echo $x;
     ?>
 </body>
 </html>
