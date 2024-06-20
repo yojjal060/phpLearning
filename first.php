@@ -12,6 +12,7 @@
       $z = $x . $y;
       echo $z;
       echo $x;
+      echo $y;
     ?>
 </body>
 </html>
