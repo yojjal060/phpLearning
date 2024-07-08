@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="librarystyle.xsl"?>
+<library>
+    <book>
+        <title>YES</title>
+        <author>Yojjal Sharma</author>
+        <year>2024</year>
+    </book>
+
+    <book>
+        <title>YO</title>
+        <author>Nischhal Bohora</author>
+        <year>2024</year>
+    </book>
+
+    <book>
+        <title>YOooo</title>
+        <author>John Doe</author>
+        <year>2024</year>
+    </book>
+
+</library>
