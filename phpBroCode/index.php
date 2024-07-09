@@ -2,6 +2,7 @@
     $name = "Yojjal";
     $age = 21;
     $email = "yojjal878@gmail.com";
+    $food = "pizza";
 
     $quantity = 9;
     $gpa = 2.5;
@@ -10,6 +11,7 @@
     $employed = true;
     $online = false;
     $for_sale = true;
+    $total = null;
     
     echo $name;
     echo "<br>";
@@ -33,4 +35,8 @@
     echo"Your pizza is \${$price}";
     echo"<br>";
     echo "Online status : {$online}";
+    echo"<br>";
+    echo "You have ordered {$quantity}{$food}s<br>";
+    $total = $quantity * $price;
+    echo "Your total is: \${$total}";
 ?>
