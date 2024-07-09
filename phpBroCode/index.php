@@ -1,22 +1,36 @@
 <?php
-    echo"I like Pizzas <br>";
-    echo"what's up"
-    //This is a comment
-    /* This
-    is
-    a
-    multiline Comment
-     */
+    $name = "Yojjal";
+    $age = 21;
+    $email = "yojjal878@gmail.com";
+
+    $quantity = 9;
+    $gpa = 2.5;
+    $price = 4.99;
+
+    $employed = true;
+    $online = false;
+    $for_sale = true;
+    
+    echo $name;
+    echo "<br>";
+    echo "{$age}";
+    echo "<br>";
+    echo "Hello, My name is {$name} <br> I am {$age} years old";
+    echo "<br>";
+    echo "My email is {$email}";
+    echo "<br>";
+    echo "You would like to buy {$quantity} items";
+
+    if($gpa<0){
+        echo"<br>";
+        echo"It is lesser than 0";
+    }
+    else{
+        echo"<br>";
+        echo "It is greater than 0";
+    }
+
+    echo"Your pizza is \${$price}";
+    echo"<br>";
+    echo "Online status : {$online}";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <br>
-    <button>order pizza</button>
-</body>
-</html>
